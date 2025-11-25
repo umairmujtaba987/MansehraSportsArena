@@ -24,6 +24,8 @@ jobs:
         run: npm ci
 
       - name: Build
+        # If your site is served from a project page (https://<user>.github.io/<repo>),
+        # set the VITE_BASE repository secret or modify the workflow to set VITE_BASE to "/<repo>/"
         # Build with VITE_BASE so assets use the repo path on GitHub Pages project site
         env:
           VITE_BASE: "/mansehrasportsarena/"
@@ -31,11 +33,9 @@ jobs:
 
       - name: Configure Pages
         uses: actions/configure-pages@v4
-      
+
       - name: Upload artifact
-        # uses: actions/upload-pages-artifact@v1
-        uses: actions/upload-artifact@v4
-      
+        uses: actions/upload-pages-artifact@v4
         with:
           path: dist/public
 
