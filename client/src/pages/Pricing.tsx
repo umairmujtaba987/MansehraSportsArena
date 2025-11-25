@@ -29,7 +29,7 @@ const pricingPlans = [
       "Team match bookings",
       "Flexible time slots",
     ],
-    popular: false, 
+    popular: false,
   },
   {
     title: "Table Tennis",
