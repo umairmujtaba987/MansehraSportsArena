@@ -6,7 +6,7 @@ import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 export default defineConfig({
   // Allow overriding the base path (useful for GitHub Pages project sites)
   // base: process.env.VITE_BASE || "/",
-  base: "/mansehrasportsarena/", //
+  base: "/", //
   plugins: [
     react(),
     runtimeErrorOverlay(),
