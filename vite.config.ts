@@ -6,21 +6,20 @@ import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 export default defineConfig({
   // Allow overriding the base path (useful for GitHub Pages project sites)
   // base: process.env.VITE_BASE || "/",
-  base: "/mansehrasportsarena/",
-  // base: "/", //
+  base: "/", //
   plugins: [
     react(),
     runtimeErrorOverlay(),
     ...(process.env.NODE_ENV !== "production" &&
-      process.env.REPL_ID !== undefined
+    process.env.REPL_ID !== undefined
       ? [
-        await import("@replit/vite-plugin-cartographer").then((m) =>
-          m.cartographer(),
-        ),
-        await import("@replit/vite-plugin-dev-banner").then((m) =>
-          m.devBanner(),
-        ),
-      ]
+          await import("@replit/vite-plugin-cartographer").then((m) =>
+            m.cartographer(),
+          ),
+          await import("@replit/vite-plugin-dev-banner").then((m) =>
+            m.devBanner(),
+          ),
+        ]
       : []),
   ],
   resolve: {
