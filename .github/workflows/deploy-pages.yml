@@ -24,8 +24,9 @@ jobs:
         run: npm ci
 
       - name: Build
-        # If your site is served from a project page (https://<user>.github.io/<repo>),
-        # set the VITE_BASE repository secret or modify the workflow to set VITE_BASE to "/<repo>/"
+        # Build with VITE_BASE so assets use the repo path on GitHub Pages project site
+        env:
+          VITE_BASE: "/mansehrasportsarena/"
         run: npm run build
 
       - name: Configure Pages
