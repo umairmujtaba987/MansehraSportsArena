@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 import cricketImage from "@assets/generated_images/indoor_cricket_arena_action.png";
 import futsalImage from "@assets/generated_images/indoor_futsal_soccer_court.png";
-import tableTennisImage from "@assets/generated_images/tableTennis.jpg";
+import tableTennisImage from "@assets/generated_images/table_tennis.jpg";
 import recreationImage from "@assets/generated_images/friends_celebrating_sports_recreation.png";
 import cricketCloseup from "@assets/generated_images/cricket_action_close-up.png";
 import soccerBall from "@assets/generated_images/soccer_ball_futsal_court.png";

@@ -10,7 +10,7 @@ import { Link } from "wouter";
 import cricketImage from "@assets/generated_images/indoor_cricket_arena_action.png";
 import futsalImage from "@assets/generated_images/indoor_futsal_soccer_court.png";
 import fitnessImage from "@assets/generated_images/fitness_training_zone.png";
-import tableTennisImage from "@assets/generated_images/tabletennis.jpg";
+import tableTennisImage from "@assets/generated_images/table_tennis.jpg";
 export default function Home() {
   return (
     <div className="min-h-screen">

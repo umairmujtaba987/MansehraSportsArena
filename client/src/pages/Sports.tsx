@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 import cricketImage from "@assets/generated_images/indoor_cricket_arena_action.png";
 import futsalImage from "@assets/generated_images/indoor_futsal_soccer_court.png";
-import tableTennisImage from "@assets/generated_images/tabletennis.jpg";
+import tableTennisImage from "@assets/generated_images/table_tennis.jpg";
 import recreationImage from "@assets/generated_images/friends_celebrating_sports_recreation.png";
 
 export default function Sports() {
