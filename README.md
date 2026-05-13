@@ -604,7 +604,6 @@ Solution: Restart the dev server: npm run dev
 ## 📞 Contact & Social
 
 - **GitHub:** https://github.com/umairmujtaba987
-- **Live Demo:** https://mansehra-sports-arena.vercel.app/
 - **Issues & Feedback:** [GitHub Issues](https://github.com/umairmujtaba987/MansehraSportsArena/issues)
 
 ---
