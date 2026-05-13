@@ -2,7 +2,6 @@
 
 A comprehensive full-stack web application for managing sports facilities, bookings, and events. Built with modern web technologies featuring real-time capabilities, secure authentication, and a responsive design.
 
-**Live Demo:** https://mansehra-sports-arena.vercel.app/
 
 ---
 
